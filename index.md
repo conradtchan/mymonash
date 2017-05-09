@@ -2,4 +2,4 @@
 ## [Employee Self Service (ESS)](https://eservices.monash.edu.au/irj/portal)
 ## [Concur](https://my.monash.edu.au/services/travel-and-expense/)
 ## [Email](https://mail.google.com)
-## [myDevelopment](https://monash.csod.com/LMS/catalog/Welcome.aspx)
+## [myDevelopment](https://monash.csod.com/samldefault.aspx)
