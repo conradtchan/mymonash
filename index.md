@@ -3,3 +3,6 @@
 ## [Concur](https://my.monash.edu.au/services/travel-and-expense/)
 ## [Email](https://mail.google.com)
 ## [myDevelopment](https://monash.csod.com/samldefault.aspx)
+## [Allocate+](http://www.monash.edu/timetables/login.html)
+## [M-Pass](https://monash-sp.blackboard.com/eAccounts/AccountSummary.aspx)
+## [Library](http://www.monash.edu/library)
