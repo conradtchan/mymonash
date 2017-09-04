@@ -5,5 +5,6 @@
 ## [myDevelopment](https://monash.csod.com/samldefault.aspx)
 ## [Allocate+](http://www.monash.edu/timetables/login.html)
 ## [M-Pass](https://monash-sp.blackboard.com/eAccounts/AccountSummary.aspx)
+## [Unit Evaluations (SETU)](https://monash.bluera.com/monash)
 ## [Library](http://www.monash.edu/library)
 ## [Shop.Monash](https://shop.monash.edu/monash-sso/idp/login/)
