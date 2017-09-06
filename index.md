@@ -1,6 +1,6 @@
 ## [Moodle](http://moodle.vle.monash.edu/my/)
 ## [Email](http://mail.google.com/a/monash.edu)
-## [WES](https://my.monash.edu.au/wes/)
+## [Web Enrolment System (WES)](https://my.monash.edu.au/wes/)
 ## [Employee Self Service (ESS)](https://eservices.monash.edu.au/irj/portal)
 ## [Concur](https://my.monash.edu.au/services/travel-and-expense/)
 ## [myDevelopment](https://monash.csod.com/samldefault.aspx)
