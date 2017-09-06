@@ -8,3 +8,8 @@
 ## [Unit Evaluations (SETU)](https://monash.bluera.com/monash)
 ## [Library](http://www.monash.edu/library)
 ## [Shop.Monash](https://shop.monash.edu/monash-sso/idp/login/)
+
+Note: this page does not know or gather any information about your Monash account. E.g. the log out button simply forces a log out, unaware of if you are actually logged in or not.
+## [Logout](https://my.monash/campusm/home#signout)
+## [Logout Moodle](http://moodle.vle.monash.edu/login/logout.php)
+(Moodle logout sometimes doesn't work because Moodle is a mess)
