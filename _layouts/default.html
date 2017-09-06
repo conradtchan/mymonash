@@ -16,9 +16,6 @@
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <h2> <a href=https://my.monash/campusm/home#signout>Log out</a></h2>
-        <h2> <a href=http://moodle.vle.monash.edu/login/logout.php> Log out Moodle </a></h2>
-        <p> Note: this page does not know or gather any information about your Monash account. E.g. the log out button simply forces a log out, unaware of if you are actually logged in or not.</p>
         {% if site.show_downloads %}
           <ul>
             <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
