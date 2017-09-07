@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>my.monash lite</title>
+
+    <link rel="stylesheet" href="http://mymonash.lol/assets/css/style.css?v=a72730324d267ff5d4efe654c3b04ea9c9dffc99">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <style>
+
+        h1 {
+            color: #069;
+        }
+    </style>
+
+    <script>
+        function enable_dark(){
+            document.body.style.backgroundColor = "black";
+        }
+        function enable_light() {
+            document.body.style.backgroundColor = "white";
+        }
+        function update_dark_mode(val)
+        {
+
+
+            if (val.checked)
+            {
+                enable_dark();
+            } else {
+                enable_light();
+            }
+        }
+    </script>
+</head>
+
+<body>
+<div class="wrapper">
+    <header>
+        <h1>my.monash lite</h1>
+        <p>Although my.monash looks fancy, it can be slow and difficult to navigate. This is a fast and minimal
+            alternative that always displays links in the same order.</p>
+
+        <br>
+        <input type="checkbox" id="checkbox_dark_mode" name="dark_mode" onclick="update_dark_mode(this);"/> <span id="instruction">Dark Mode</span>
+        <br>
+        <p></p>
+
+    </header>
+    <section>
+
+
+        <h2 id="moodle"><a href="http://moodle.vle.monash.edu/my/" target="_blank">Moodle</a></h2>
+        <h2 id="email"><a href="http://mail.google.com/a/monash.edu" target="_blank">Email</a></h2>
+        <h2 id="web-enrolment-system-wes"><a href="https://my.monash.edu.au/wes/" target="_blank">Web Enrolment System
+            (WES)</a></h2>
+        <h2 id="employee-self-service-ess"><a href="https://eservices.monash.edu.au/irj/portal" target="_blank">Employee
+            Self Service (ESS)</a></h2>
+        <h2 id="concur"><a href="https://my.monash.edu.au/services/travel-and-expense/" target="_blank">Concur</a></h2>
+        <h2 id="mydevelopment"><a href="https://monash.csod.com/samldefault.aspx" target="_blank">myDevelopment</a></h2>
+        <h2 id="allocate"><a href="http://www.monash.edu/timetables/login.html" target="_blank">Allocate+</a></h2>
+        <h2 id="m-pass"><a href="https://monash-sp.blackboard.com/eAccounts/AccountSummary.aspx"
+                           target="_blank">M-Pass</a></h2>
+        <h2 id="unit-evaluations-setu"><a href="https://monash.bluera.com/monash" target="_blank">Unit Evaluations
+            (SETU)</a></h2>
+        <h2 id="library"><a href="http://www.monash.edu/library" target="_blank">Library</a></h2>
+        <h2 id="shopmonash"><a href="https://shop.monash.edu/monash-sso/idp/login/" target="_blank">Shop.Monash</a></h2>
+
+        <p>Note: this page does not know or gather any information about your Monash account. E.g. the log out button
+            simply forces a log out, unaware of if you are actually logged in or not.</p>
+        <h2 id="logout"><a href="https://my.monash/campusm/home#signout" target="_blank">Logout</a></h2>
+        <h2 id="logout-moodle"><a href="http://moodle.vle.monash.edu/login/logout.php" target="_blank">Logout Moodle</a>
+        </h2>
+        <p>(Moodle logout sometimes doesn’t work because Moodle is a mess)</p>
+
+
+    </section>
+    <footer>
+        <p>
+            <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a>
+            </small>
+        </p>
+    </footer>
+</div>
+<script src="http://mymonash.lol/assets/js/scale.fix.js"></script>
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-99033104-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+</body>
+</html>
