@@ -22,15 +22,17 @@
 
     <script>
         function enable_dark(){
+
             document.body.style.backgroundColor = "black";
+            document.getElementById("checkbox_dark_mode").checked = true;
+            localStorage.setItem("mode", "dark");
         }
         function enable_light() {
             document.body.style.backgroundColor = "white";
+            localStorage.setItem("mode", "light");
         }
         function update_dark_mode(val)
         {
-
-
             if (val.checked)
             {
                 enable_dark();
@@ -38,11 +40,26 @@
                 enable_light();
             }
         }
+        function configure_mode(){
+            if(localStorage.getItem("mode") == null){
+                localStorage.setItem("mode", "light");
+            }
+            var mode = localStorage.getItem("mode");
+            if (mode == "dark"){
+                enable_dark();
+            }else{
+                enable_light();
+            }
+
+
+        }
+
     </script>
 </head>
 
-<body>
+<body onload="configure_mode()">
 <div class="wrapper">
+
     <header>
         <h1>my.monash lite</h1>
         <p>Although my.monash looks fancy, it can be slow and difficult to navigate. This is a fast and minimal
