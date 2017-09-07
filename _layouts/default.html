@@ -10,12 +10,63 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <style>
+
+        h1 {
+            color: #069;
+        }
+        
+    </style>
+
+    <script>
+        function enable_dark(){
+
+            document.body.style.backgroundColor = "black";
+            document.getElementById("checkbox_dark_mode").checked = true;
+            localStorage.setItem("mode", "dark");
+        }
+        function enable_light() {
+            document.body.style.backgroundColor = "white";
+            localStorage.setItem("mode", "light");
+        }
+        function update_dark_mode(val)
+        {
+            if (val.checked)
+            {
+                enable_dark();
+            } else {
+                enable_light();
+            }
+        }
+        function configure_mode(){
+            if(localStorage.getItem("mode") == null){
+                localStorage.setItem("mode", "light");
+            }
+            var mode = localStorage.getItem("mode");
+            if (mode == "dark"){
+                enable_dark();
+            }else{
+                enable_light();
+            }
+
+
+        }
+
+    </script>
+    
   </head>
-  <body>
+  <body onload="configure_mode()">
     <div class="wrapper">
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+        
+        <br>
+        <input type="checkbox" id="checkbox_dark_mode" name="dark_mode" onclick="update_dark_mode(this);"/> <span id="instruction">Dark Mode</span>
+        <br>
+        <p></p>
+        
         {% if site.show_downloads %}
           <ul>
             <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
