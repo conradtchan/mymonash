@@ -34,9 +34,11 @@
         {
             if (val.checked)
             {
-                enable_dark();
+              enable_dark();
+              ga('send', 'event', 'MODE', 'DARK', 'Campaign');
             } else {
                 enable_light();
+                ga('send', 'event', 'MODE', 'LIGHT', 'Campaign');
             }
         }
         function configure_mode(){
