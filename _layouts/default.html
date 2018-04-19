@@ -18,10 +18,10 @@
         }
 
         #mypossum{
+         color: #069;
          transform: rotate(-10deg);
          font-size: xx-large;
          font-weight: bold;
-         color:red;
          }
 
     </style>
@@ -68,11 +68,12 @@
   <body onload="configure_mode()">
     <div class="wrapper">
       <header>
-        <h1><del>{{ site.title | default: site.github.repository_name }}></del></h1>
+        <h1><del>{{ site.title | default: site.github.repository_name }}</del></h1>
+        <img src="../sir_john.png" width = "100">
         <div id="mypossum">
            my.possum lite
         </div>
-        <img src="../sir_john.png" width = "100">
+
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <br>
         <input type="checkbox" id="checkbox_dark_mode" name="dark_mode" onclick="update_dark_mode(this);"/> <span id="instruction">Dark Mode</span>
