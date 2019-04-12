@@ -1,3 +1,4 @@
+Due to the costs associated with running mymonash.lol (~$30/year), it will be discontinued after May 9. Thank you to everyone who's supported us over the past couple of years!
 ## [Moodle](http://moodle.vle.monash.edu/my/){:target="_blank"}
 ## [Email](http://mail.google.com/a/monash.edu){:target="_blank"}
 ## [Web Enrolment System (WES)](https://my.monash.edu.au/wes/){:target="_blank"}
